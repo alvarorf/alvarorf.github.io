@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Álvaro Ruiz</title>
+</head>
+<body>
+    <nav>
+        <div>
+            Álvaro Ruiz
+        </div>
+        <a class="displayMenu">
+            <span class="iconify" data-inline="false" data-icon="gridicons:menu" style="color: #6070FF; font-size: 30px;"></span>
+        </a>
+        <ul>
+            <a href="#main">Portfolio</a>
+            <a href="#firstSection">About</a>
+            <a href="#contactForm">Contact</a>
+        </ul>
+    </nav>
+    <div class="menuDisplayed">
+        <a class="closeMenu">
+            <span class="iconify" data-inline="false" data-icon="bi:x" style="color: white; font-size: 60px;"></span>
+        </a>
+        <ul>
+            <a href="#main">Portfolio</a>
+            <a href="#firstSection">About</a>
+            <a href="#contactForm">Contact</a>
+        </ul>
+    </div>
+    <header>
+        <div id="intro">
+            <h1>I'm Álvaro<br>Glad to see you!</h1>
+            <p>Remote Full Stack Web Developer | React & Redux | Ruby on Rails | JavaScript | PHP & Laravel | Python & Django. Economist. </p>
+            <p>I like to develop carefully designed, modern and functional applications that are pleasant for the end-user.
+                Currently exploring opportunities in web development.</p>
+            <h3>LETS CONNECT</h3>
+            <div>
+                <a href="https://twitter.com/aaruizf" target="_blank">
+                    <span class="iconify" data-inline="false" data-icon="el:twitter" style="color: #505F79; font-size: 20px;"></span>
+                </a>
+                <a href="https://www.linkedin.com/in/alvaro-andr%C3%A9s-ruiz-florez/" target="_blank">
+                   <span class="iconify" data-inline="false" data-icon="bx:bxl-linkedin" style="color: #505F79; font-size: 20px;"></span>
+                </a>
+                <a href="https://github.com/alvarorf" target="_blank">
+                    <span class="iconify" data-inline="false" data-icon="uim:github-alt" style="color: #505F79; font-size: 20px;"></span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="project" id="main">
+            <div class="image">
+                <img src="./assets/breakingbadapi.png" alt="project">
+            </div>
+            <div class="description">
+                <h1>Breaking Bad API</h1>
+                <span>This Javascript, React and Redux app uses the BreakingBadAPI to get all the pokemon by generation, lets you filter by pokemon
+                on the search bar, and see the detailed information of the selected one.</span>
+                <div class="built">
+                    <span>javascript</span>
+                    <span>react & react hooks</span>
+                    <span>html</span>
+                    <span>css</span>
+                    <span>aws ec2</span>
+                    <span>linux & nginx</span>
+
+                </div>
+                <div class="actions">
+                    <a href="https://github.com/alvarorf/react-breakingbadapi" target="_blank">
+                        <button>See Project</button>
+                    </a>
+                    <a href="https://www.react-breakingbadapi.tk/" target="_blank">
+                        <button>Live demo</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="project">
+            <div class="image">
+                <img src="./assets/restaurant.png" alt="project">
+            </div>
+            <div class="description">
+                <h1>Laravel restaurant</h1>
+                <span>This is CRUD PHP app that was built using Laravel and MVC principles. It is a simple restaurant
+                    page, where users can see the menu, order food and logged in users can even create their own food types.</span>
+                <div class="built">
+                    <span>php</span>
+                    <span>laravel</span>
+                    <span>html</span>
+                    <span>sass</span>
+                    <span>aws ec2</span>
+                </div>
+                <div class="actions">
+                    <a href="https://github.com/alvarorf/php-laravelrestaurant-production" target="_blank">
+                        <button>See Project</button>
+                    </a>
+                    <a href="https://www.php-laravelrestaurant.tk/" target="_blank">
+                        <button>Live demo</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="project" id="swap">
+            <div class="image">
+                <img src="./assets/movie-review.png" alt="project">
+            </div>
+            <div class="description">
+                <h1>Movie review</h1>
+                <span>This rails app is a twitter-like focused on movie reviews and with a new design, where you can create a profile and follow people,
+                    also you can upload your profile image, opinion, and update your profile whenever you want.</span>
+                <div class="built">
+                    <span>ruby on rails</span>
+                    <span>css</span>
+                    <span>aws S3</span>
+                </div>
+                <div class="actions">
+                    <a href="https://github.com/alvarorf/movie-review" target="_blank">
+                        <button>See Project</button>
+                    </a>
+                    <a href="https://movie-review-rails-capstone.herokuapp.com" target="_blank">
+                        <button>Live demo</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="project" id="swap">
+            <div class="image">
+                <img src="./assets/social-media.png" alt="project">
+            </div>
+            <div class="description">
+                <h1>RoR Social Media</h1>
+                <span>This is a social media app. This project was built with Ruby on Rails and PostgreSQL in the back-end and Sass in the front-end.
+                    Rspec and Capybara were used in the testing phase and Heroku was used for deployment. </span>
+                <div class="built">
+                    <span>ruby on rails</span>
+                    <span>postgresql</span>
+                    <span>css</span>
+                    <span>sass</span>
+                    <span>heroku</span>
+                </div>
+                <div class="actions">
+                    <a href="https://github.com/alvarorf/ror-social-scaffold" target="_blank">
+                        <button>See Project</button>
+                    </a>
+                    <a href="http://ror-social-media-net.herokuapp.com/" target="_blank">
+                        <button>Live demo</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="project" id="swap">
+            <div class="image">
+                <img src="./assets/barbend.png" alt="project">
+            </div>
+            <div class="description">
+                <h1>Barbend</h1>
+                <span>The front-end of an online powerlifting store, where users can see products by categories. Built with HTML, Bootstrap and CSS.</span>
+                <div class="built">
+                    <span>git</span>
+                    <span>vscode</span>
+                    <span>html</span>
+                    <span>bootstrap</span>
+                    <span>css</span>
+                </div>
+                <div class="actions">
+                    <a href="https://github.com/alvarorf/OnlineShop-Capstone" target="_blank">
+                        <button>See Project</button>
+                    </a>
+                    <a href="https://rawcdn.githack.com/alvarorf/OnlineShop-Capstone/fca301d25242751c94cb3d1e1fa7ea9bb144affd/index.html" target="_blank">
+                        <button>Live demo</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="project">
+            <div class="image">
+                <img src="./assets/Frame1.svg" alt="project">
+            </div>
+            <div class="description">
+                <h1>Newsweek</h1>
+                <span>This is an HTML website using Bootstrap that matches the appearance of the website Newsweek.</span>
+                <div class="built">
+                    <span>html</span>
+                    <span>bootstrap</span>
+                    <span>css</span>
+                    <span>git</span>
+                    <span>vscode</span>
+                </div>
+                <div class="actions">
+                    <a href="https://github.com/alvarorf/Using-Bootstrap---Newsweek" target="_blank">
+                        <button>See Project</button>
+                    </a>
+                    <a href="https://rawcdn.githack.com/alvarorf/Using-Bootstrap---Newsweek/9e4c48f0355cd3b9befb762b10d6b2c00593626b/index.html" target="_blank">
+                        <button>Live demo</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="firstSection" id="firstSection">
+            <div class="about">
+                <h1>About Me</h1>
+                <p>I'm a full-stack developer with a BS in Economics. I love working on marketing projects that require complex data-set analysis.
+                    Currently exploring remote web development opportunities, if you like what you see
+                and have a project you need coded, don’t hestiate
+                to contact me.</p>
+                <h3>LETS CONNECT</h3>
+                <div class="icons">
+                    <a href="https://twitter.com/aaruizf" target="_blank">
+                        <span class="iconify" data-inline="false" data-icon="el:twitter" style="color: #505F79; font-size: 20px;"></span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/alvaro-andr%C3%A9s-ruiz-florez/" target="_blank">
+                        <span class="iconify" data-inline="false" data-icon="bx:bxl-linkedin"
+                            style="color: #505F79; font-size: 20px;"></span>
+                    </a>
+                    <a href="https://github.com/alvarorf" target="_blank">
+                        <span class="iconify" data-inline="false" data-icon="uim:github-alt"
+                            style="color: #505F79; font-size: 20px;"></span>
+                    </a>
+                </div>
+            </div>
+            <div class="workDetails">
+                <button class="collapsible">
+                    <span>Languages</span>
+                    <span class="iconify" class="collapsible-arrow" data-inline="false" data-icon="dashicons:arrow-down-alt2" style="color: #091E42; font-size: 20px;"
+                    data-flip="vertical" data-rotate="90deg"></span>
+                </button>
+                <div class="hiddenFeatures">
+                    <div>
+                        <span class="iconify" data-inline="false" data-icon="mdi:language-ruby" style="font-size: 50px; background-color: #D73636; color: white; padding: 5px;"></span>
+                        <span>Ruby</span>
+                    </div>
+                    <div>
+                        <span class="iconify" data-inline="false" data-icon="logos:javascript" style="font-size: 60px;"></span>
+                        <span>Javascript</span>
+                    </div>
+                    <div>
+                        <span class="iconify" data-inline="false" data-icon="logos:python" style="font-size: 60px;"></span>
+                        <span>Python</span>
+                    </div>
+                    <div>
+                        <span class="iconify" data-inline="false" data-icon="logos:php" style="font-size: 60px;"></span>
+                        <span>PHP</span>
+                    </div>
+                    <div>
+                        <span class="iconify" data-inline="false" data-icon="logos:sass" style="font-size: 60px; background-color: #3698D7; color: white;"></span>
+                        <span>SASS</span>
+                    </div>
+                    <div>
+                        <span class="iconify" data-inline="false" data-icon="foundation:html5" style="font-size: 60px; background-color: #F16529; color: white;"></span>
+                        <span>HTML</span>
+                    </div>
+                    <div>
+                        <span class="iconify" data-inline="false" data-icon="foundation:css3" style="font-size: 60px; background-color: #3698D7; color: white;"></span>
+                        <span>CSS</span>
+                    </div>
+
+                </div>
+                <button class="collapsible">
+                    <span>Frameworks</span>
+                    <span class="iconify" class="collapsible-arrow" data-inline="false" data-icon="dashicons:arrow-down-alt2"
+                    style="color: #091E42; font-size: 20px;" data-flip="vertical" data-rotate="90deg"></span>
+                </button>
+                <div class="hiddenFeatures">
+                    <div>
+                        <span class="iconify" data-inline="false" data-icon="bx:bxl-react" style="font-size: 60px; color: white; background-color: #00D8FF;"></span>
+                        <span>React</span>
+                    </div>
+                    <div>
+                        <span class="iconify" data-inline="false" data-icon="cib:rails"
+                        style="font-size: 50px; background-color: #D73636; color: white; padding: 5px;"></span>
+                        <span>Ruby on Rails</span>
+                    </div>
+                    <div>
+                        <span class="iconify" data-inline="false" data-icon="mdi-laravel" style="font-size: 60px; color: red;"></span>
+                        <span>Laravel</span>
+                    </div>
+                    <div>
+                        <span class="iconify" data-inline="false" data-icon="simple-icons:django" style="font-size: 60px; color: rgb(56, 54, 54);"></span>
+                        <span>Django</span>
+                    </div>
+                </div>
+                <button class="collapsible">
+                    <span>Skills</span>
+                    <span class="iconify" class="collapsible-arrow" data-inline="false" data-icon="dashicons:arrow-down-alt2"
+                    style="color: #091E42; font-size: 20px;" data-flip="vertical" data-rotate="90deg"></span>
+                </button>
+                <div class="hiddenFeatures">
+                    <div>
+                        <span class="iconify" data-inline="false" data-icon="ic:baseline-sync-problem" style="font-size: 60px; color: white; background-color: #ABB2AC;"></span>
+                        <span>Problem Solving</span>
+                    </div>
+                    <div>
+                        <span class="iconify" data-inline="false" data-icon="ri:team-fill"
+                        style="font-size: 50px; background-color: #F1C529; color: white; padding: 5px;"></span>
+                        <span>Team Work</span>
+                    </div>
+                    <div>
+                        <span class="iconify" data-inline="false" data-icon="bx:bx-timer"
+                            style="font-size: 50px; background-color: #2931F1; color: white; padding: 5px;"></span>
+                        <span>Time Management</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contactForm" id="contactForm">
+            <h1>Contact Me</h1>
+            <p>If you have an application you are interested in developing, a feature that you need built or a project that needs
+            coding. I’d love to help with it.</p>
+            <a href="mailto:aaruizf@unal.edu.co">
+                <button>
+                    Get in touch!
+                </button>
+            </a>
+        </div>
+    </footer>
+    <script src="./dist/main.js"></script>
+</body>
+</html>
