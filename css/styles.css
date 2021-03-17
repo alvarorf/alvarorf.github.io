@@ -361,3 +361,166 @@ footer .contactForm button {
   border-radius: 8px;
   margin-right: 15px;
 }
+
+@media only screen and (max-width: 768px) {
+  .displayMenu {
+    max-height: 100% !important;
+  }
+  .menuDisplayed {
+    overflow: hidden;
+    max-height: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    background-color: rgba(127, 140, 255, 0.945);
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+  }
+  .menuDisplayed ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .menuDisplayed a {
+    color: white !important;
+    padding: 28px;
+  }
+  .menuDisplayed .closeMenu {
+    align-self: self-end;
+  }
+  nav {
+    padding: 30px 24px;
+  }
+  nav ul {
+    display: none;
+  }
+  #intro {
+    padding: 140px 24px 160px;
+    background: url(../assets/HeaderBgMobile.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .main {
+    padding: 2rem;
+  }
+  .main :last-child {
+    margin: 0 !important;
+  }
+  .main #swap .description {
+    order: 2;
+  }
+  .main .project {
+    display: flex;
+    flex-direction: column;
+    margin: 110px 0;
+  }
+  .main .project .image {
+    padding: 0;
+    width: 100%;
+    height: 300px;
+  }
+  .main .project .image img {
+    max-height: 95%;
+  }
+  .main .project .description {
+    padding: 70px 0;
+    width: 100%;
+  }
+  .main .project .actions > * {
+    margin-right: 15px;
+  }
+  .firstSection {
+    flex-direction: column;
+    padding: 100px 24px 40px !important;
+  }
+  .firstSection .about {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .firstSection .workDetails {
+    width: 100%;
+  }
+  .firstSection .workDetails .hiddenFeatures {
+    flex-direction: column;
+  }
+  .firstSection .workDetails .hiddenFeatures div {
+    width: auto;
+    flex-direction: row;
+    height: auto;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .firstSection .workDetails .hiddenFeatures div :nth-child(2) {
+    margin-left: 16px;
+  }
+  .contactForm {
+    padding: 100px 24px 40px !important;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .menuDisplayed,
+.displayMenu {
+    overflow: hidden;
+    max-height: 0;
+  }
+  #intro {
+    padding: 140px 40px 160px;
+    background-size: cover;
+  }
+  .main {
+    padding: 100px;
+  }
+  .main #swap .description {
+    order: 2;
+  }
+  .main .project {
+    display: flex;
+    flex-direction: column;
+  }
+  .main .project .image {
+    padding: 0;
+    width: 100%;
+    height: 300px;
+  }
+  .main .project .image img {
+    height: 95%;
+  }
+  .main .project .description {
+    padding: 70px 0;
+    width: 100%;
+    height: 330px;
+  }
+  .firstSection {
+    flex-direction: column;
+    padding: 80px !important;
+  }
+  .firstSection .about {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .firstSection .workDetails {
+    width: 100%;
+  }
+  .firstSection .workDetails .hiddenFeatures {
+    flex-direction: column;
+  }
+  .firstSection .workDetails .hiddenFeatures div {
+    width: auto;
+    flex-direction: row;
+    height: auto;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .firstSection .workDetails .hiddenFeatures div :nth-child(2) {
+    margin-left: 16px;
+  }
+  .contactForm {
+    padding: 142px 120px !important;
+  }
+}
